@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="mid-container col-md-4 col-md-offset-4">
+
+            <div class="display-area ">
+                <p id="expression"></p>
+
+                <p id="resultBox"></p>
+
+            </div>
+            <div class="input-layout ">
+                <div class="buttons ">
+                    <button type="button " class="input-botton " onclick="calc(7)">7</button>
+                    <button type="button " class="input-botton " onclick="calc(8)">8</button>
+                    <button type="button " class="input-botton" onclick="calc(9)">9</button>
+                    <button type="button " class="input-botton " onclick="calc('+')">+</button>
+
+                </div>
+                <div class="buttons ">
+                    <button type="button " class="input-botton " onclick="calc(4)">4</button>
+                    <button type="button " class="input-botton " onclick="calc(5)">5</button>
+                    <button type="button " class="input-botton " onclick="calc(6)">6</button>
+                    <button type="button " class="input-botton " onclick="calc('-')">-</button>
+
+                </div>
+                <div class="buttons ">
+                    <button type="button " class="input-botton " onclick="calc(1)">  1</button>
+                    <button type="button " class="input-botton " onclick="calc(2)">2</button>
+                    <button type="button " class="input-botton " onclick="calc(3)">3</button>
+                    <button type="button " class="input-botton " onclick="calc('*')">*</button>
+                </div>
+                <div class="buttons ">
+
+                    <button type="button " class="input-botton size " onclick="calc('=') ">=</button>
+                    <button type="button " class="input-botton size" onclick="calc('c')">C</button>
+                    <button type="button " class="input-botton " onclick="calc(0)">0</button>
+                    <button type="button " class="input-botton " onclick="calc('/')">/</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js "></script>
+</body>
+
+</html>
